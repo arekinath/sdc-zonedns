@@ -1,5 +1,5 @@
 {
-	"name": "zone-dns",
+	"name": "zonedns",
 	"description": "dns server to resolve zones' hostnames",
 	"version": "1.0.0",
 	"main": "./lib/index.js",

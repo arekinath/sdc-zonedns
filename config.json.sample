@@ -19,22 +19,22 @@
 	},
 
 	"ufds":	{
-		url: "ldaps://ufds.sdc.domain",
-		bindDN: "cn=root",
-		bindPassword: "secret",
-		clientTimeout: 5000,
-		cache: {
-			size: 5000,
-			age: 60
+		"url": "ldaps://ufds.sdc.domain",
+		"bindDN": "cn=root",
+		"bindPassword": "secret",
+		"clientTimeout": 5000,
+		"cache": {
+			"size": 5000,
+			"age": 60
 		}
 	},
 	"vmapi": {
-		url: "http://vmapi.sdc.domain"
+		"url": "http://vmapi.sdc.domain"
 	},
 	"cnapi": {
-		url: "http://cnapi.sdc.domain"
+		"url": "http://cnapi.sdc.domain"
 	},
 	"napi": {
-		url: "http://napi.sdc.domain"
+		"url": "http://napi.sdc.domain"
 	}
 }

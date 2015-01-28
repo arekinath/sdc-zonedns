@@ -1,0 +1,5 @@
+node_modules/
+base.zone
+config.json
+private.zone
+public.zone

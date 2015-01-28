@@ -2,6 +2,7 @@
 	"name": "zonedns",
 	"description": "dns server to resolve zones' hostnames",
 	"version": "1.0.0",
+	"repository": "git://github.com/arekinath/sdc-zonedns",
 	"main": "./lib/index.js",
 	"dependencies": {
 		"node-sdc-clients": "git://github.com/joyent/node-sdc-clients.git",

@@ -1,0 +1,4 @@
+@	IN	NS	ns1.example.com.
+@	IN	NS	ns2.example.com.
+
+foo	IN	A	1.2.3.5

@@ -1,0 +1,40 @@
+{
+	"base": "vms.example.com",
+	"hostmaster": "hostmaster.example.com",
+	"secondaryNs": ["ns1.example.com", "ns2.example.com"],
+	"me": {
+		"hostname": "zonedns0",
+		"records": [
+			{"type": "A", "value": "10.0.0.42"}
+		]
+	},
+
+	"reverseProxy": {
+		"enabled": false,
+		"base": "example.com",
+		"records": [
+			{"type": "A", "value": "1.2.3.4"},
+			{"type": "AAAA", "value": "2400:1234::1"}
+		]
+	},
+
+	"ufds":	{
+		url: "ldaps://ufds.sdc.domain",
+		bindDN: "cn=root",
+		bindPassword: "secret",
+		clientTimeout: 5000,
+		cache: {
+			size: 5000,
+			age: 60
+		}
+	},
+	"vmapi": {
+		url: "http://vmapi.sdc.domain"
+	},
+	"cnapi": {
+		url: "http://cnapi.sdc.domain"
+	},
+	"napi": {
+		url: "http://napi.sdc.domain"
+	}
+}

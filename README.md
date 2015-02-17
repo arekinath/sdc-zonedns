@@ -10,7 +10,7 @@ There is also support for deploying a sub-domain to be used by a front-end rever
 
 Hostnames are formed in the pattern `account-alias.vms.example.com` -- where `account` is the SDC account owning the VM, `alias` is the alias set by the user, and `vms.example.com` is the `base` value set in the sdc-zonedns configuration.
 
-Additionally, when aliases are unique across the whole cluster, the hostname `alias.vms.example.com` will also be reserved for the VM. Currently, as soon as another VM is created using that alias (eg, by another tenant), this hostname will disappear. This is considered more a legacy feature than anything else, to aid with migrating from previously existing DNS records.
+Additionally, when aliases are unique across the whole cluster, the hostname `alias.vms.example.com` will also be reserved for the VM. The first user who creates a VM with a given alias will have the `alias.vms.example.com` hostname reserved for them permanently. This is considered more a legacy feature than anything else, to aid with migrating from previously existing DNS records.
 
 ## Fallback records
 

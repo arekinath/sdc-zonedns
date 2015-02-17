@@ -18,6 +18,8 @@
 		]
 	},
 
+	"nameStore": "names.db",
+
 	"ufds":	{
 		"url": "ldaps://ufds.sdc.domain",
 		"bindDN": "cn=root",

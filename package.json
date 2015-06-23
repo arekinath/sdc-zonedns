@@ -11,7 +11,8 @@
     "netmask": "1.0",
     "node-bunyan": "git://github.com/trentm/node-bunyan.git",
     "node-named": "git://github.com/arekinath/node-named.git",
-    "node-sdc-clients": "git://github.com/joyent/node-sdc-clients.git"
+    "node-sdc-clients": "git://github.com/joyent/node-sdc-clients.git",
+    "trie-search": "~0.1.1"
   },
   "engines": {
     "node": ">=0.9.0"
